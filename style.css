@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: roboto, 'helvetica';
+  margin: 0;
+}
+
+.dark-background {
+  background-color: #1F2937;
+}
+
+.grey-background {
+  background-color: #E5E7Eb
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 8px;
+  color: #F9FAF8;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8
+}

@@ -10,15 +10,15 @@ body {
 }
 
 .grey-background {
-  background-color: #E5E7Eb
+  background-color: #E5E7EB
 }
 
 .header{
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 8px;
   color: #F9FAF8;
+  margin-top: 16px;
 }
 
 .header-logo {
@@ -29,9 +29,32 @@ ul {
   display: flex;
   gap: 16px;
   list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 a {
   text-decoration: none;
-  color: #F9FAF8
+    color: #E5E7EB;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.subtext {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero-main{
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+body > * {
+  padding-left: 64px;
+  padding-right: 64px;
 }

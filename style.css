@@ -1,8 +1,18 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: roboto, 'helvetica';
+  font-family: 'roboto regular', helvetica;
   margin: 0;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 40px;
 }
 
 .dark-background {
@@ -23,6 +33,7 @@ body {
 
 .header-logo {
   font-size: 24px;
+  font-weight: bold;
 }
 
 ul {
@@ -44,6 +55,13 @@ a {
   margin: 100px 0;
 }
 
+.left-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
 .subtext {
   color: #E5E7EB;
   font-size: 18px;
@@ -51,10 +69,11 @@ a {
 
 .hero-main{
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 1000;
+  color: #F9FAF8
 }
 
 body > * {
-  padding-left: 64px;
-  padding-right: 64px;
+  padding-left: 150px;
+  padding-right: 150px;
 }

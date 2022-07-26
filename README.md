@@ -1,1 +1,2 @@
-# odin-landing-page
+Photos of Jinx are courtesy of Mia, Jinx's owner. You can find links to all of their social media accounts at https://www.bigfootjinx.com .
+This page was mainly created to demonstrate creating and using flex boxes.

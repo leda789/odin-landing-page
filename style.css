@@ -28,7 +28,7 @@ a {
     color: #E5E7EB;
 }
 
-.dark-background {
+.dark-background, .footer {
   background-color: #1F2937;
 }
 

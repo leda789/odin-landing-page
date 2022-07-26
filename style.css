@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'roboto regular', helvetica;
+  font-family: roboto, helvetica;
   margin: 0;
 }
 
@@ -34,9 +34,10 @@ a {
 
 .grey-background {
   background-color: #E5E7EB;
+  padding: 100px 250px;
 }
 
-.white-background {
+.white-background, .grey-background {
   color: #1F2937;
 }
 
@@ -90,6 +91,18 @@ a {
   gap: 50px;
   font-size: 18px;
   margin-bottom: 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: end;
 }
 
 .image-container img {
